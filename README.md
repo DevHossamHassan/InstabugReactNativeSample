@@ -30,5 +30,4 @@ and then add use `startWithToken` API in your constructor
 
 ``` 
 
-You can find your app token by selecting the SDK tab from your [Instabug dashboard]("https://dashboard.instabug.com/app/sdk/")
-.
+You can find your app token by selecting the SDK tab from your [Instabug dashboard](https://dashboard.instabug.com/app/sdk/) .
