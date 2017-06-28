@@ -13,6 +13,11 @@ import {
 } from 'react-native';
 
 export default class InstabugReactNativeSample extends Component {
+  constructor() {
+    super();
+    Instabug.startWithToken(`f501f761142981d54b1fdea93963a934`, Instabug.invocationEvent.shake);
+  }
+
   render() {
     return (
       <View style={styles.container}>
