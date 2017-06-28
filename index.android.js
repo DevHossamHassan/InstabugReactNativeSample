@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import Instabug from'instabug-reactnative';
+
 export default class InstabugReactNativeSample extends Component {
   constructor() {
     super();
